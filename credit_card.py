@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 from PIL import Image
 
-loaded_model= pickle.load(open("C:/Users/hp/Desktop/deployment/trained_card.sav","rb"))
+loaded_model= pickle.load(open("trained_card.sav","rb"))
 
 #creating a prediction
 
