@@ -243,8 +243,9 @@ dependencies:
     - urllib3==1.22
     - validators==0.18.2
     - watchdog==2.1.7
-    - werkzeug==2.1.1
-    - wrapt==1.14.0
-    - xgboost==1.5.2
-    - yarg==0.1.9
-    - yfinance==0.1.70
+     werkzeug==2.1.1
+     wrapt==1.14.0
+     xgboost==1.5.2
+    -yarg==0.1.9
+     yfinance==0.1.70
+     scikit-learn
