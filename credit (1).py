@@ -1,16 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 19 03:38:29 2023
 
-@author: hp
-"""
 
 import numpy as np
 import pickle
 import streamlit as st
 from PIL import Image
 
-loaded_model= pickle.load(open("C:/Users/hp/Desktop/deployment/trained_card.sav","rb"))
+filename = 'trained_loan.sav'
+
+loaded_model= pickle.load(open(filename,"rb"))
 
 #creating a prediction
 
