@@ -34,7 +34,7 @@ def card_pred(input_data):
 
 def main():
     
-    img1 = Image.open("C:/Users/hp/Desktop/deployment/img/f.png")
+    img1 = Image.open("f.png")
     img1 = img1.resize((506,305))
     st.image(img1,use_column_width=False)
     #giving the iyle
